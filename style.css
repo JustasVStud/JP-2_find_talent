@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+:root {
+    --midnight-green: #014E56;
+    --light-coral: #F67E7E;
+    --white: #FFFFFF;
+
+    --rapture-blue: #79C8C7;
+    --police-blue: #2C6269;
+    --deep-jungle-green: #004047;
+    --sacramento-state-green: #012F34;
+    --dark-green: #002529;
+
+    font-family: 'Livvic', sans-serif;
+}
+
