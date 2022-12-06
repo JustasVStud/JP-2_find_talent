@@ -94,3 +94,39 @@ body{
     display: block;
     margin-bottom: 24px;
 }
+.button{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 24px;
+    padding: 9px 32px 11px;
+}
+.button:disabled{
+    opacity: 0.25;
+}
+.button-primary-light{
+    background-color: transparent;
+    border-color: var(--white);
+    color: var(--white);
+}
+.button-primary-light:hover{
+    background-color: var(--white);
+    color: var(--sacramento-state-green);
+}
+.button-primary-dark {
+    background-color: transparent;
+    border-color: var(--sacramento-state-green);
+    color: var(--sacramento-state-green);
+}
+.button-primary-dark:hover{
+    background-color: var(--sacramento-state-green);
+    color: var(--white);
+}
+.button-secondary {
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--sacramento-state-green);
+}
+.button-secondary:hover {
+    background-color: var(--rapture-blue);
+    border-color: var(--rapture-blue);
+}
