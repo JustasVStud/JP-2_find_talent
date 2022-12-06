@@ -13,3 +13,39 @@
     font-family: 'Livvic', sans-serif;
 }
 
+.about-container{
+    background-color:#012F34;
+
+    display:flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    gap: 56px;
+    position: relative;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    overflow: hidden;
+    
+} 
+.about-container-box{
+    max-height: 25px;
+    max-width: auto;
+    
+    
+}
+
+.about-image{
+    position:absolute ;
+    top: -100px;
+    left: -100px;
+    width: 200px;
+    height: 200px;
+    opacity: 54%;
+    
+ 
+}
+.about-text-size{
+    font-size: 32px;
+    font-weight: bold;
+}  
