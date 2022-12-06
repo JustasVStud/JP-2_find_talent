@@ -13,6 +13,88 @@
     font-family: 'Livvic', sans-serif;
 }
 
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Livvic', sans-serif;
+}
+.body__1 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.body__2 {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.h1-large {
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 700;
+}
+.h1-small {
+    font-size: 64px;
+    line-height: 56px;
+    font-weight: 700;
+}
+.h2 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+}
+.h3 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.input__text,
+.input__textarea{
+    display: block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid var(--white);
+    background-color: transparent;
+    color: white;
+    padding-left: 14px;
+    margin-bottom: 24px;
+    width: 325px;
+}
+.input__text{
+    padding-bottom: 16px;
+}
+.input__text::placeholder,
+.input__textarea::placeholder {
+    opacity: 0.6;
+}
+.input__text:focus-visible,
+.input__textarea:focus-visible {
+    border-color: var(--rapture-blue);
+    outline: none;
+}
+.input__message{
+    display: none;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 10px;
+    line-height: 0.5rem;
+    padding-left: 14px;
+    width: 325px;
+}
+.input-alert{
+    border-color: var(--light-coral);
+    color: var(--light-coral);
+}
+.input__text.input-alert,
+.input__textarea.input-alert{
+    margin-bottom: 8px;
+}
+.input__message.input-alert {
+    display: block;
+    margin-bottom: 24px;
+}
 .about-container{
     background-color:#012F34;
 
@@ -49,3 +131,4 @@
     font-size: 32px;
     font-weight: bold;
 }  
+
