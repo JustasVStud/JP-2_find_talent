@@ -10,7 +10,27 @@
 
 </head>
 <body>
-    <header></header>
+    <header class="header">
+        <a href="index.html" class="linked-img">
+          <img src="assets/images/logo.svg" alt="talent logo" class="logo">
+        </a>
+        <a href="#offcanvasResponsive" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasResponsive" class="linked-img hamburger">
+          <img src="assets/images/icon-hamburger.svg" alt="nav menu open" class="hamburger__img">
+        </a>
+        <div class="offcanvas-md offcanvas-end header__offcanvas" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+            <a href="#offcanvasResponsive" data-bs-dismiss="offcanvas" role="button" class="linked-img close">
+              <img src="assets/images/icon-close.svg" alt="nav menu close__img">
+            </a>
+            <nav class="nav">
+              <a href="index.html" class="nav__item link-text body__1 nav__home">home</a>
+              <a href="about.html" class="nav__item link-text body__1 nav__about">about</a>
+              <a href="contacts.html" class="body__1 button button-primary-light nav__item">
+                contact us
+              </a>
+            </nav>
+            <img src="assets/images/bg-pattern-about-1-mobile-nav-1.svg" alt="mobile nav 1" class="offcanvas__bg-image">
+        </div>
+    </header>
     <main>
     </main>
     <footer></footer>
