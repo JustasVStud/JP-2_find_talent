@@ -107,7 +107,7 @@ body{
     padding-top: 88px;
     padding-bottom: 88px;
     overflow: hidden;
-    
+   
 } 
 .about-container-box{
     max-height: 25px;
@@ -128,7 +128,8 @@ body{
 }
 .about-text-size{
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 700;
+    line-height: 32px;
 }  
 
 
