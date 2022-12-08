@@ -32,8 +32,7 @@
         </div>
     </header>
     <main>
-      
-            
+    
         <div class="contacts-container">
     <div class="contacts-text1">Contact</div>
     <div class="contacts-text2">Ask us about</div>
@@ -50,9 +49,36 @@
         </div>      
             
         
+      <div class="form-container">
+        <form novalidate class="form">
+          <!-- Name -->
+          <input type="text" name="name" id="name" placeholder="Name" class="input__text body__2" required>
+          <span class="input__message body__2" aria-live="polite" id="name_error"></span>
 
+          <!-- Email -->
+          <input type="email" name="email" id="email" placeholder="Email Adress" class="input__text body__2" required>
+          <span class="input__message body__2" aria-live="polite" id="email_error"></span>
+
+          <!-- Company name -->
+          <input type="text" name="company_name" id="company_name" placeholder="Company Name" class="input__text body__2">
+          <span class="input__message body__2" aria-live="polite" id="company_name_error"></span>
+          
+          <!-- Title -->
+          <input type="text" name="title" id="title" placeholder="Title" class="input__text body__2">
+          <span class="input__message body__2" aria-live="polite" id="title_error"></span>
+          
+          <!-- Message -->
+          <textarea name="message" id="message" cols="28" rows="4" placeholder="Message" class="input__textarea body__2" required></textarea>
+          <span class="input__message body__2" aria-live="polite" id="message_error"></span>
+
+          <button class="body__1 button button-secondary">Submit</button>
+        </form>
+        
+        <img src="assets/images/bg-pattern-contact-2.svg" alt="bg-pattern-contact-2" class="form-container__img">
+      </div>
     </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -258,12 +258,6 @@ body{
 .description-features > h5, p{ 
     color: #ffffff;
     font-style: normal;
-<<<<<<< index_main_stories
-=======
-    text-align: center;
-    mix-blend-mode: normal;
-    opacity: 0.8;
->>>>>>> master
     font-size: 15px;
     opacity: 0.8;
     padding: 0px 25px 50px 25px;
@@ -581,6 +575,16 @@ padding-bottom: 28px;
     right: 0;
     bottom: 0;
 }
-
-
-
+.form-container {
+    background-color: var(--midnight-green);
+    padding: 10px 24px 88px 24px;
+    position: relative;
+    overflow: hidden;
+}
+.form-container__img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: -100px;
+    right: -100px;
+}
