@@ -236,3 +236,17 @@ body{
     bottom: 0;
     right: -100px;
 }
+
+.form-container {
+    background-color: var(--midnight-green);
+    padding: 10px 24px 88px 24px;
+    position: relative;
+    overflow: hidden;
+}
+.form-container__img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: -100px;
+    right: -100px;
+}
