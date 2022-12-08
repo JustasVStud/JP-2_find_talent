@@ -1,18 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,600;1,700&display=swap');
 :root {
-  --midnight-green: #014e56;
-  --light-coral: #f67e7e;
-  --white: #ffffff;
+    --midnight-green: #014E56;
+    --light-coral: #F67E7E;
+    --white: #FFFFFF;
 
-  --rapture-blue: #79c8c7;
-  --police-blue: #2c6269;
-  --deep-jungle-green: #004047;
-  --sacramento-state-green: #012f34;
-  --dark-green: #002529;
+    --rapture-blue: #79C8C7;
+    --police-blue: #2C6269;
+    --deep-jungle-green: #004047;
+    --sacramento-state-green: #012F34;
+    --dark-green: #002529;
 
-  font-family: "Livvic", sans-serif;
-
+    font-family: 'Livvic', sans-serif;
 }
+
 *{
     box-sizing: border-box;
 }
@@ -111,7 +111,7 @@ body{
     padding-top: 88px;
     padding-bottom: 88px;
     overflow: hidden;
-    
+   
 } 
 .about-container-box{
     max-height: 25px;
@@ -132,178 +132,11 @@ body{
 }
 .about-text-size{
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 700;
+    line-height: 32px;
 }  
 
 
-.button{
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 24px;
-    padding: 9px 32px 11px;
-}
-.button:disabled{
-    opacity: 0.25;
-}
-.button-primary-light{
-    background-color: transparent;
-    border-color: var(--white);
-    color: var(--white);
-}
-.button-primary-light:hover{
-    background-color: var(--white);
-    color: var(--sacramento-state-green);
-}
-.button-primary-dark {
-    background-color: transparent;
-    border-color: var(--sacramento-state-green);
-    color: var(--sacramento-state-green);
-}
-.button-primary-dark:hover{
-    background-color: var(--sacramento-state-green);
-    color: var(--white);
-}
-.button-secondary {
-    background-color: var(--white);
-    border-color: var(--white);
-    color: var(--sacramento-state-green);
-}
-.button-secondary:hover {
-    background-color: var(--rapture-blue);
-    border-color: var(--rapture-blue);
-}
-
-/*index main banner*/
-.main-banner {
-  font-family: "Livvic";
-  position: relative;
-  text-align: center;
-  background-color: rgba(1, 78, 86, 1);
-  color: #ffffff;
- 
-}
-.banner-title {
-  font-size: normal;
-  text-align: center;
-  vertical-align: top;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
-  line-height: 40px;
-  margin: 8px
-}
-.banner-text {
- 
-  text-align: center;  
-  vertical-align: top;
-  font-size: 15px;
-  line-height: 28px;
-  font-weight: 600;
-  padding: 25px 2px 110px 2px; 
-}
-.bg-pattern-home-2{
-    position: absolute;
-    width: 358px;
-    height: 200px;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: -100px;
-}
-
-/*index main features*/
-
-.main-features-body {
-  position: relative;
-  font-family: "Livvic", sans-serif;
-  text-align: center;
-  overflow: hidden;
-}
-.red-line {
-  position: absolute;
-  padding: 28px 0px 25px 0px;
-  left: 24px;
-  width: 50px;
-  height: 4px;
-  border-bottom: solid #f67e7e;
-}
-.bg-pattern-home-3 {
-  position: absolute;
-  left: 275px;
-  right: -250px;
-  top: 0px;
-}
-.features-title {
- text-align: justify;
-  font-family: "Livvic";
-  text-align:left;
-  padding: 80px 80px 50px 15px;
-  font-size: normal;
-  text-align: left;
-  line-height: 32px;
-  font-size: 32px;
-  font-weight: 700;
-  vertical-align: top;
-  color: #ffffff;
-  vertical-align: top;
-}
-.description-features h5{
-    text-align: center;
-    font-size: 18px;
-    line-height: 28px;
-    line-height: 124%;
-    vertical-align: top;
-    padding: 18px 2px 5px 2px;
-}
-.description-features > h5, p {
-    color: #ffffff;
-    font-style: normal;
-    opacity: 0.8;
-    font-size: 15px;
-    padding: 0px 25px 50px 25px;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-}
-
-/*about main banner*/
-
-.main-banner-body{
-    position: relative;
-    font-family: "Livvic";
-    background-color: rgba(1, 78, 86, 1);
-    color: #ffffff;
-    overflow: hidden;
-}
-.main-banner-title {
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    font-family: 'Livvic';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-}
-.main-banner-text{
-    text-align: center;
-    margin: 0px 24px 108px 24px;
-    height: 196px;
-    font-family: 'Livvic';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 28px;
-    z-index: 30;
-}
-.main-banner-image {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    bottom: -100px;
-    right: -100px;;
-    opacity: 53,49%; 
-}
 .contacts-container{
     background-color: #014E56;
     font-weight: bold;
@@ -331,6 +164,8 @@ margin-left: 25px;
  width: 72px;
  height: 72px;
  text-align: center;
+ font-size: 18px;
+ padding: 8px;
 }
 
 .contacts-text-container-text{
@@ -341,13 +176,16 @@ margin: auto;
 }
 
 .contacts-text1{
-    font-size: 38px;
-    height: 40px;
+    font-size: 40px;
+   line-height: 40px;
+   font-weight: 700;
     padding-bottom: 16px;
 
 }
 .contacts-text2{
     font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
     color: #F67E7E;
     height: 40px; 
 }
@@ -415,3 +253,4 @@ margin: auto;
     bottom: 0;
     right: -100px;
 }
+
