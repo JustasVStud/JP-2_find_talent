@@ -161,6 +161,7 @@ margin-left: 25px;
  height: 72px;
  text-align: center;
  font-size: 18px;
+ padding: 8px;
 }
 
 .contacts-text-container-text{
@@ -171,13 +172,16 @@ margin: auto;
 }
 
 .contacts-text1{
-    font-size: 38px;
-    height: 40px;
+    font-size: 40px;
+   line-height: 40px;
+   font-weight: 700;
     padding-bottom: 16px;
 
 }
 .contacts-text2{
     font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
     color: #F67E7E;
-    height: 40px; 
+  
 }
