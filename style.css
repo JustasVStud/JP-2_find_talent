@@ -415,3 +415,82 @@ margin: auto;
     bottom: 0;
     right: -100px;
 }
+
+/* index main stories */
+
+.main-stories-body {
+    padding-top: 140px;
+    position: relative;
+    text-align: center;
+    background-color: #004047;
+    color: white;
+    
+}
+
+.stories-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-stories {
+    margin: 0 auto;
+    font-size: 32px;
+    width: 327px;
+    word-wrap: break-word;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 84px;
+}
+
+.success-stories {
+    color: #79C8C7;
+}
+
+.quotes {
+    margin: 0 auto;
+    font-size: 15px;
+    width: 327px;
+    word-wrap: break-word;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.quote {
+    margin-bottom: 16px;
+    background-image: url(assets/images/icon-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 36px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #79C8C7;
+    margin-bottom: 2px;
+}
+
+.role {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 2px solid #C4FFFE;
+    width: 62px;
+    height: 62px;
+    margin-bottom: 84px;
+}
+
+.icon-bot-left {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
