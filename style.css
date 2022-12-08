@@ -254,18 +254,24 @@ body{
     line-height: 28px;
     padding: 18px 2px 5px 2px;
 }
-.description-features > h5, p {
+/* 
+.description-features > h5, p{ 
     color: #ffffff;
     font-style: normal;
+<<<<<<< index_main_stories
+=======
     text-align: center;
     mix-blend-mode: normal;
     opacity: 0.8;
+>>>>>>> master
     font-size: 15px;
+    opacity: 0.8;
     padding: 0px 25px 50px 25px;
     font-weight: 600;
     line-height: 25px;
     
 }
+*/
 
 /*about main banner*/
 
@@ -273,7 +279,7 @@ body{
     position: relative;
     font-family: "Livvic";
     background-color: rgba(1, 78, 86, 1);
-    color: #ffffff;
+    color: #FFFFFF;
     overflow: hidden;
 }
 .main-banner-title {
@@ -495,12 +501,34 @@ padding-bottom: 28px;
 /* index main stories */
 
 .main-stories-body {
-    padding-top: 140px;
+    color: #FFFFFF;
+    padding-top: 140px; 
+    padding-bottom: 84px;
     position: relative;
     text-align: center;
     background-color: #004047;
-    color: white;
     
+}
+
+.quote {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    word-wrap: break-word;
+    width: 380px;
+    color: white;
+    margin-bottom: 16px;
+    background-image: url(assets/images/icon-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 36px;
+    margin: 0 auto;
+}
+
+.quotes {
+    padding-top: 10px;
 }
 
 .stories-icon {
@@ -513,34 +541,17 @@ padding-bottom: 28px;
     margin: 0 auto;
     font-size: 32px;
     width: 327px;
-    word-wrap: break-word;
     font-weight: 700;
     line-height: 32px;
-    margin-bottom: 84px;
+    margin-bottom: 30px;
 }
 
 .success-stories {
     color: #79C8C7;
 }
 
-.quotes {
-    margin: 0 auto;
-    font-size: 15px;
-    width: 327px;
-    word-wrap: break-word;
-    line-height: 25px;
-    font-weight: 600;
-}
-
-.quote {
-    margin-bottom: 16px;
-    background-image: url(assets/images/icon-quotes.svg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    padding-top: 36px;
-}
-
 .name {
+    margin-top: 16px;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
@@ -549,8 +560,9 @@ padding-bottom: 28px;
 }
 
 .role {
+    font-family: "Livvic";
     font-style: italic;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 13px;
     line-height: 18px;
     margin-bottom: 16px;
@@ -561,12 +573,14 @@ padding-bottom: 28px;
     border: 2px solid #C4FFFE;
     width: 62px;
     height: 62px;
-    margin-bottom: 84px;
+    margin-bottom: 53px;
 }
 
 .icon-bot-left {
     position: absolute;
-    bottom: 0;
     right: 0;
-    
+    bottom: 0;
 }
+
+
+
