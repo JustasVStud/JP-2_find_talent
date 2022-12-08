@@ -189,11 +189,10 @@ body{
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  line-height: 40px;
   margin: 8px
 }
+
 .banner-text {
- 
   text-align: center;  
   vertical-align: top;
   font-size: 15px;
@@ -214,6 +213,7 @@ body{
 
 .main-features-body {
   position: relative;
+  background-color: rgba(1, 47, 52, 1);
   font-family: "Livvic", sans-serif;
   text-align: center;
   overflow: hidden;
@@ -227,44 +227,49 @@ body{
   border-bottom: solid #f67e7e;
 }
 .bg-pattern-home-3 {
-  position: absolute;
-  left: 275px;
-  right: -250px;
+  position: absolute;    
+  display: inline-block;
+  right:-100px;
   top: 0px;
+ 
 }
 .features-title {
- text-align: justify;
-  font-family: "Livvic";
-  text-align:left;
-  padding: 80px 80px 50px 15px;
-  font-size: normal;
   text-align: left;
-  line-height: 32px;
+  font-family: "Livvic";
+  margin: 90px 100px 40px 20px;
   font-size: 32px;
   font-weight: 700;
+  line-height: 32px;
+  font-style: normal;
   vertical-align: top;
   color: #ffffff;
-  vertical-align: top;
+  
 }
 .description-features h5{
     text-align: center;
-    font-size: 18px;
-    line-height: 28px;
-    line-height: 124%;
+    font-style: normal;
     vertical-align: top;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
     padding: 18px 2px 5px 2px;
 }
 /* 
 .description-features > h5, p{ 
     color: #ffffff;
     font-style: normal;
+<<<<<<< index_main_stories
+=======
+    text-align: center;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+>>>>>>> master
     font-size: 15px;
     opacity: 0.8;
     padding: 0px 25px 50px 25px;
     font-weight: 600;
-    font-size: 15px;
     line-height: 25px;
-    text-align: center;
+    
 }
 */
 
@@ -283,9 +288,10 @@ body{
     margin-bottom: 16px;
     font-family: 'Livvic';
     font-style: normal;
+    line-height: 56px;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 64px;
+    
 }
 .main-banner-text{
     text-align: center;
@@ -306,6 +312,7 @@ body{
     right: -100px;;
     opacity: 53,49%; 
 }
+
 .contacts-container{
     background-color: #014E56;
     font-weight: bold;
@@ -336,23 +343,96 @@ margin-left: 25px;
 }
 
 .contacts-text-container-text{
-padding-left: 23px;
-padding-right:24px;
+padding-left: 21px;
 max-width: 259px;
 margin: auto;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+padding-bottom: 28px;
 }
 
 .contacts-text1{
-    font-size: 38px;
-    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
     padding-bottom: 16px;
+    font-weight: 700;
 
 }
 .contacts-text2{
     font-size: 32px;
     color: #F67E7E;
-    height: 40px; 
+    line-height: 48px; 
+    font-weight: 700;
 }
+
+/*footer*/
+
+.ready-to-get-start-body{
+    background-color:#f67e7e;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.ready-to-get-start-text{
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    color: rgba(1, 47, 52, 1);
+    padding: 80px 40px 25px 40px;
+}
+.button-primary-dark {
+    margin: 5px 25px 100px 25px;
+}
+
+.ready-to-get-start-image {
+    position: absolute;  
+    margin: 0px 0px 0px 0px;
+    top: 200px;        
+}   
+.footer-contacts-body {
+    background-color: #002529;
+    text-align: center;
+    position: relative;
+}
+.footer-logo{
+    padding: 50px 30px 15px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.footer-home-about {
+    text-align: center;
+    padding:10px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+}
+.footer-contacts{
+    
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    opacity:0.6;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -50px;
+    margin-bottom: 25px;
+    mix-blend-mode: normal;
+}
+.copyright{
+    
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    opacity:0.6;
+    mix-blend-mode: normal;
+    margin-top: 25px;
+}                            
 /* header */
 .header {
     background-color: var(--midnight-green);
