@@ -404,11 +404,22 @@ padding-bottom: 28px;
 }
 .footer-home-about {
     text-align: center;
-    margin:10px;
+    padding:10px;
     font-weight: 600;
     font-size: 15px;
     line-height: 25px;
 }
+.footer-home-about a:hover{
+    color: #F67E7E;
+}
+.social-network a:hover{
+    cursor: pointer;
+    filter: invert(51%) sepia(8%) saturate(3511%) hue-rotate(314deg) brightness(125%) contrast(93%);
+}
+.social-network img{
+    padding: 40px 5px 5px 5px;
+}
+
 .footer-contacts{
     
     text-align: center;
@@ -433,7 +444,8 @@ padding-bottom: 28px;
     opacity:0.6;
     mix-blend-mode: normal;
     margin-top: 25px;
-}                            
+}     
+
 /* header */
 .header {
     background-color: var(--midnight-green);
