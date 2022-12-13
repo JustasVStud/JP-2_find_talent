@@ -198,7 +198,7 @@ body{
   position: relative;
   text-align: center;
   background-color: rgba(1, 78, 86, 1);
-  color: #ffffff;
+  color: var(--white);
  
 }
 .banner-title {
@@ -218,7 +218,7 @@ body{
   font-size: 15px;
   line-height: 28px;
   font-weight: 600;
-  padding: 0px 2px 90px 2px; 
+  padding: 0px 24px 150px 24px; 
 }
 .bg-pattern-home-2{
     position: absolute;
@@ -265,25 +265,25 @@ body{
   color: #ffffff;
   
 }
-.description-features h5{
+.features h5{
     text-align: center;
     font-style: normal;
     vertical-align: top;
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
-    padding: 18px 2px 5px 2px;
+    padding: 25px 2px 0px 2px;
 }
 
-.description-features > h5, p{ 
+
+.features p{ 
     color: #ffffff;
     font-style: normal;
     font-size: 15px;
     opacity: 0.8;
-    padding: 0px 25px 50px 25px;
+    padding: 5px 25px 25px 25px;
     font-weight: 600;
-    line-height: 25px;
-    
+    line-height: 25px;  
 }
 
 
@@ -410,7 +410,8 @@ padding-bottom: 28px;
     position: relative;
 }
 .footer-logo{
-    padding: 50px 30px 15px 30px;
+    
+    padding: 60px 30px 15px 30px;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
@@ -418,9 +419,11 @@ padding-bottom: 28px;
 .footer-home-about {
     text-align: center;
     padding:10px;
+    margin-bottom: 50px;
     font-weight: 600;
     font-size: 15px;
     line-height: 25px;
+    color: var(--white);
 }
 .footer-home-about a:hover{
     color: #F67E7E;
@@ -430,7 +433,8 @@ padding-bottom: 28px;
     filter: invert(51%) sepia(8%) saturate(3511%) hue-rotate(314deg) brightness(125%) contrast(93%);
 }
 .social-network img{
-    padding: 40px 5px 5px 5px;
+    margin-top: 30px;
+    padding: 5px 5px 5px 5px;
 }
 
 .footer-contacts{
@@ -457,6 +461,7 @@ padding-bottom: 28px;
     opacity:0.6;
     mix-blend-mode: normal;
     margin-top: 25px;
+    padding-bottom: 64px;
 }     
 
 /* header */
