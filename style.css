@@ -690,7 +690,8 @@ h1, h2, h3, h4, h5, h6 {
         padding: 64px 113px 112px 113px;
     }
     .form-container__img {
-        bottom: 0%;
+        bottom: -3px;
+        height: 225px;
     }
     .form {
         min-width: 540px;
