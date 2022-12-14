@@ -575,6 +575,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .success-stories {
     color: var(--rapture-blue);
+    display: inline-block;
 }
 .name {
     color: var(--rapture-blue);
