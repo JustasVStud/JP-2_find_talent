@@ -12,8 +12,13 @@ const messageError = document.getElementById('message_error');
 
 
 email.addEventListener('input', (event) => {
-    fullNameValid();
     emailValid();
+});
+
+fullName.addEventListener('input', (event) => {
+    fullNameValid();
+});
+message.addEventListener('input', (event) => {
     messageValid();
 });
 
@@ -62,6 +67,7 @@ function fullNameValid(){
         }
     }
 }
+
 
 function messageValid(){
     if(message.validity.valid){
