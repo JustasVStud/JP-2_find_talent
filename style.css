@@ -191,41 +191,110 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*index main banner*/
-.main-banner {
-  font-family: "Livvic";
-  position: relative;
-  text-align: center;
-  background-color: rgba(1, 78, 86, 1);
-  color: var(--white);
- 
-}
-.banner-title {
-  font-size: normal;
-  text-align: center;
-  vertical-align: top;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
-  padding: 18px;
-  
-}
 
-.banner-text {
-  text-align: center;  
-  vertical-align: top;
-  font-size: 15px;
-  line-height: 28px;
-  font-weight: 600;
-  padding: 0px 24px 150px 24px; 
-}
-.bg-pattern-home-2{
-    position: absolute;
-    width: 358px;
-    height: 200px;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: -100px;
-}
+@media only screen and (max-width: 768px) {
+    /* For mobile devices with a screen width between 375px to 768px */
+    .main-banner {
+        font-family: "Livvic";
+        background-color: rgba(1, 78, 86, 1);
+        color: #ffffff;
+        padding-top: 80px;
+    }
+    .banner-title {
+        text-align: center;
+        width: 87.2%;
+        height: 80px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 18px;
+        margin-left: 6.4%;
+        margin-right: 6.4%;
+    }
+    .banner-text {
+        font-style: normal;
+        text-align: center;
+        width: 87.2%;
+        height: 112px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        margin-left: 6.4%;
+        margin-right: 6.4%;
+    }
+    .bg-pattern-home-2{
+        text-align: center;
+        margin-top: 97px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1339px) {
+    /* For tablets with a screen width between 769px and 1339px */
+    .main-banner {
+        padding-top: 112px;
+        font-family: "Livvic";
+        background-color: rgba(1, 78, 86, 1);
+        color: #ffffff;
+    }
+    .banner-title {
+        text-align: center;
+        width: 88.94%;
+        height: 112px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 56px;
+        margin-bottom: 24px;
+        margin-left: 5.85%;
+        margin-right: 5.21%;
+    }
+    .banner-text {
+        text-align: center;
+        font-style: normal;
+        width: 59.5%;
+        margin-left: 20.2%;
+        margin-right: 20.3%;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    .bg-pattern-home-2{
+        text-align: center;
+        margin-top: 156px;
+    }
+  }
+  @media only screen and (min-width: 1440px) {
+    /* For desktop computers with a screen width above 1440px */
+    .main-banner {
+        padding-top: 112px;
+        font-family: "Livvic";
+        background-color: rgba(1, 78, 86, 1);
+        color: #ffffff;
+    }
+    .banner-title {
+        display: inline-block;
+        width: 635px;
+        height: 200px;
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 100px;
+    }
+    .banner-text {
+        display: inline-block;
+        text-align: left;
+        width: 445px;
+        height: 112px;
+        margin-left: 155px;
+        margin-right: 156px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+     }
+     .bg-pattern-home-2{
+        margin-top: 156px;
+    }
+  }
 
 /*index main features*/
 
