@@ -801,3 +801,49 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 54%;
 }
 }
+
+/*About banner tablet*/
+@media screen and (min-width: 768px){
+
+    .main-banner-body{
+        position: relative;
+        font-family: "Livvic";
+        background-color: rgba(1, 78, 86, 1);
+        color: #FFFFFF;
+        overflow: hidden;
+    }
+    
+    .main-banner-title{
+        text-align: center;
+       margin-bottom: 34px;
+        font-family: 'Livvic';
+        font-style: normal;
+        line-height: 56px;
+        font-weight: 700;
+        font-size: 64px;
+    
+    }
+    .main-banner-text{
+      text-align: center;
+      margin-left: 158px;
+      margin-right: 153px ;
+      margin-bottom: 45px;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 28px;
+        z-index: 30;
+    
+    }
+    .main-banner-image{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        bottom: 0px;
+        right: -100px;;
+       /* opacity: 0.53;*/ 
+        mix-blend-mode: normal;
+    
+    }
+}
