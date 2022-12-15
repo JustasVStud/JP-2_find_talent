@@ -878,8 +878,17 @@ h1, h2, h3, h4, h5, h6 {
     }
     .form-container {
         width: 50%;
+        padding: 0 0 120px 32px;
     }
-
+    .form {
+        margin-left: 0;
+        margin-right: 0;
+        min-width: 0;
+        width: 100%;
+    }
+    .input__textarea {
+        max-height: 83px;
+    }
 
 }
 @media screen and (min-width: 768px){
