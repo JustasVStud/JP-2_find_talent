@@ -1545,7 +1545,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .red-line--desktop {
-    display: block;
+        display: block;
         padding: 28px 0px 25px 0px;
         margin-left: 0px;
         margin-top: 80px;
@@ -1554,4 +1554,47 @@ h1, h2, h3, h4, h5, h6 {
         height: 4px;
         border-bottom: solid #f67e7e;
 }
+}
+/*Dekstop About main partners*/
+@media screen and (min-width: 1440px){
+
+    .about-container-img{
+        background-color:#012F34;
+        display:flex;
+        flex-direction: row;
+        color: #FFFFFF;
+        text-align: center;
+        gap: 56px;
+        padding-bottom: 150px;
+       
+        
+    } 
+    .about-container{
+        background-color:#012F34;
+        color: #FFFFFF;
+        text-align: center; 
+        position: relative;
+        padding-top: 140px;
+        padding-bottom: 70px;
+        overflow: hidden;
+        font-size: 32px;
+        line-height: 32px;
+        font-weight: 700;
+    }
+    
+    
+    
+    .about-container-box{
+        max-height: 25px;
+        max-width: 113px;
+        text-align: center;
+        
+}
+
+.about-text-size{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}  
 }
