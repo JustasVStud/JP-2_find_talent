@@ -2,146 +2,254 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <header class="header">
-        <a href="index.html" class="linked-img">
-          <img src="assets/images/logo.svg" alt="talent logo" class="logo">
+  <header class="header">
+    <a href="index.html" class="linked-img">
+      <img src="assets/images/logo.svg" alt="talent logo" class="logo">
+    </a>
+    <a href="#offcanvasResponsive" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasResponsive"
+      class="linked-img hamburger">
+      <img src="assets/images/icon-hamburger.svg" alt="nav menu open" class="hamburger__img">
+    </a>
+    <div class="offcanvas-md offcanvas-end header__offcanvas" tabindex="-1" id="offcanvasResponsive"
+      aria-labelledby="offcanvasResponsiveLabel">
+      <a href="#offcanvasResponsive" data-bs-dismiss="offcanvas" role="button" class="linked-img close">
+        <img src="assets/images/icon-close.svg" alt="nav menu close__img">
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav__item link-text body__1 nav__home">home</a>
+        <a href="about.html" class="nav__item link-text body__1 nav__about">about</a>
+        <a href="contacts.html" class="body__1 button button-primary-light nav__item">
+          contact us
         </a>
-        <a href="#offcanvasResponsive" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasResponsive" class="linked-img hamburger">
-          <img src="assets/images/icon-hamburger.svg" alt="nav menu open" class="hamburger__img">
-        </a>
-        <div class="offcanvas-md offcanvas-end header__offcanvas" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
-            <a href="#offcanvasResponsive" data-bs-dismiss="offcanvas" role="button" class="linked-img close">
-              <img src="assets/images/icon-close.svg" alt="nav menu close__img">
-            </a>
-            <nav class="nav">
-              <a href="index.html" class="nav__item link-text body__1 nav__home">home</a>
-              <a href="about.html" class="nav__item link-text body__1 nav__about">about</a>
-              <a href="contacts.html" class="body__1 button button-primary-light nav__item">
-                contact us
-              </a>
-            </nav>
-            <img src="assets/images/bg-pattern-about-1-mobile-nav-1.svg" alt="mobile nav 1" class="offcanvas__bg-image">
-        </div>
-    </header>
-    <main>
-        <div class="main-banner-body">
-            <div class="main-banner-title">About</div>
+      </nav>
+      <img src="assets/images/bg-pattern-about-1-mobile-nav-1.svg" alt="mobile nav 1" class="offcanvas__bg-image">
+    </div>
+  </header>
+  <main>
+    <div class="main-banner-body">
+      <div class="main-banner-title">
+        About
+      </div>
           
-            <div class="main-banner-text">
+      <div class="main-banner-text">
+        
               <div class="red-line--desktop"></div>We help companies build dynamic teams made up of top global talent. Using our
-                network of passionate professionals we drive innovation and deliver incredible outcomes. Talented,
-                diverse teams shape the best products and experiences. We’ll bring those teams to you.</div>
-            <div class="main-banner-image"><img src="assets/images/bg-pattern-about-1-mobile-nav-1.svg" alt=""></div>
-
-        </div>
-
-        <div class="people-block-body">
-          <div class="image-left"><img src="assets/images/bg-pattern-about-2-contact-1.svg" alt=""></div>
-          <div class="people-block-title">Meet the directors</div>
-          <div class="people-block-nikita">
-           <img src="assets/images/avatar-nikita.jpg" alt="Nikita" class="Nikita-photo" id="nikita-photo">
-           <div class="name-director">Nikita Marks</div>
-           <div class="Nikita-position" id="nikita-position">Founder & CEO</div>
-           <div class="Nikita-description" id="nikita-description">“Empowered teams create truly amazing products. Set the north star and let them follow it.”<br><a target="_blank" href="https://linkedin.com"><img src="assets/images/icon-linkedin.svg" alt="linkedin"></a><a target="_blank" href="https://twitter.com"><img src="assets/images/icon-twitter.svg" alt="twitter"></a></div>
-           <div id="bind-plus-nikita" class="Nikita-button"><img src="assets/images/icon-cross.svg" alt=""></div>
-           </div>
-          <div><br><br></div>
-          <div class="people-block-cristian">
-            <img src="assets/images/avatar-christian.jpg" alt="" class="cristian-photo" id="cristian-photo">
-            <div class="name-director">Cristian Duncan</div>
-            <div class="cristian-position" id="cristian-position">Co-founder & COO</div>
-            <div class="cristian-description" id="cristian-description">“Empowered teams create truly amazing products. Set the north star and let them follow it.”<br><a target="_blank" href="https://linkedin.com"><img src="assets/images/icon-linkedin.svg" alt="linkedin"></a><a target="_blank" href="https://twitter.com"><img src="assets/images/icon-twitter.svg" alt="twitter"></a></div>
-            <div id="bind-plus-cristian" class="cristian-button"><img src="assets/images/icon-cross.svg" alt=""></div>
-           </div>
-           <div><br><br></div>
-           <div class="people-block-cruz">
-            <img src="assets/images/avatar-cruz.jpg" alt="" class="cruz-photo" id="cruz-photo">
-            <div class="name-director">Cruz Hamer</div>
-            <div class="cruz-position" id="cruz-position">Co-founder & CTO</div>
-            <div class="cruz-description" id="cruz-description">“Empowered teams create truly amazing products. Set the north star and let them follow it.”<br><a target="_blank" href="https://linkedin.com"><img src="assets/images/icon-linkedin.svg" alt="linkedin"></a><a target="_blank" href="https://twitter.com"><img src="assets/images/icon-twitter.svg" alt="twitter"></a></div>
-            <div id="bind-plus-cruz" class="cruz-button"><img src="assets/images/icon-cross.svg" alt=""></div>
-          </div>
-           <div><br><br></div>
-           <div class="people-block-drake">
-            <img src="assets/images/avatar-drake.jpg" alt="" class="drake-photo" id="drake-photo">
-            <div class="name-director">Drake Heaton</div>
-            <div class="drake-position" id="drake-position">Business Development Lead</div>
-            <div class="drake-description" id="drake-description">“Empowered teams create truly amazing products. Set the north star and let them follow it.”<br><a target="_blank" href="https://linkedin.com"><img src="assets/images/icon-linkedin.svg" alt="linkedin"></a><a target="_blank" href="https://twitter.com"><img src="assets/images/icon-twitter.svg" alt="twitter"></a></div>
-            <div id = "bind-plus-drake" class="drake-button"><img src="assets/images/icon-cross.svg" alt=""></div>
-          </div>
-           <div><br><br></div>
-           <div class="people-block-griffin">
-            <img src="assets/images/avatar-griffin.jpg" alt="" class="griffin-photo" id="griffin-photo">
-            <div class="name-director">Griffin Wise</div>
-            <div class="griffin-position" id="griffin-position">Lead Marketing</div>
-            <div class="griffin-description" id="griffin-description">“Empowered teams create truly amazing products. Set the north star and let them follow it.”<br><a target="_blank" href="https://linkedin.com"><img src="assets/images/icon-linkedin.svg" alt="linkedin"></a><a target="_blank" href="https://twitter.com"><img src="assets/images/icon-twitter.svg" alt="twitter"></a></div>
-            <div id = "bind-plus-griffin" class="griffin-button"><img src="assets/images/icon-cross.svg" alt=""></div>
-          </div>
-          <div><br><br></div>
-           <div class="people-block-aden">
-            <img src="" alt=""class="aden-photo" id="aden-photo">
-            <div class="name-director">Aden Allan</div>
-            <div class="aden-position" id="aden-position">Lead Marketing</div>
-            <div class="aden-description" id="aden-description">“Empowered teams create truly amazing products. Set the north star and let them follow it.”<br><a target="_blank" href="https://linkedin.com"><img src="assets/images/icon-linkedin.svg" alt="linkedin"></a><a target="_blank" href="https://twitter.com"><img src="assets/images/icon-twitter.svg" alt="twitter"></a></div>
-            <div id = "bind-plus-aden" class="aden-button"><img src="assets/images/icon-cross.svg" alt=""></div>
-          </div>
-          <div class="image-right"><img src="assets/images/bg-pattern-home-4-about-3.svg" alt=""></div>
-        </div>
-
-        <div class="about-container">
-            <img class="about-image"  src="assets/images/bg-pattern-about-4.svg" alt="bg-pattern-about-4">
-            <div class="about-text-size">Some of our clients</div>
-          </div>
-            <div class="about-container-img">
-            <div><img class="about-container-box" src="assets/images/logo-the-verge.png" alt="logo-the-verge"></div>
-            <div><img class="about-container-box" src="assets/images/logo-jakarta-post.png" alt="logo-jakarta-post"></div>
-            <div><img class="about-container-box" src="assets/images/logo-the-guardian.png" alt="logo-the-guardian"></div>
-            <div><img class="about-container-box" src="assets/images/logo-tech-radar.png" alt="logo-tech-radar"></div>
-            <div><img class="about-container-box" src="assets/images/logo-gadgets-now.png" alt="logo-gadget-now"></div>
-          </div>
-    </main>
-    <footer>
-      <div class="ready-to-get-started">
-        <div class="ready-to-get-started__text">Ready to get started?</div>
-        <a href="contacts.html" class="body__1 button button-primary-dark">contact us</a>
-        <img src="assets/images/bg-pattern-home-6-about-5.svg" alt="bg-pattern-home-6-about-5" class="ready-to-get-started__image">
+        network of passionate professionals we drive innovation and deliver incredible outcomes. Talented,
+        diverse teams shape the best products and experiences. We’ll bring those teams to you.
       </div>
-      <div class="footer-contacts-body">
-        <div class="footer-nav">
-          <a href="index.html" class="linked-img">
-            <img src="assets/images/logo.svg" alt="logo" class="footer-logo">
-          </a>
-          <p class="footer-links"><a href="index.html" class="footer-links__home">home</a><a href="about.html" class="footer-links__about">about</a></p>
-        </div>
-        <p class="footer-contacts body__2">
-            987 Hillcrest Lane <br>
-            Irvine, CA <br>
-            California 92714 <br>
-            Call Us : 949-833-7432 <br>
-        </p>
-        <div class="social-network">
-          <a target="_blank" href="https://facebook.com"><img src="assets/images/icon-facebook.svg" alt="facebook"></a>
-          <a target="_blank" href="https://pinterest.com"><img src="assets/images/icon-pinterest.svg" alt="pinterest"></a>
-          <a target="_blank" href="https://twitter.com"><img src="assets/images/icon-twitter.svg" alt="twiter"></a>
-        </div>
-        <p class="copyright body__2">Copyright 2022. All Rights Reserved</p>
+      <div class="main-banner-image">
+        <img src="assets/images/bg-pattern-about-1-mobile-nav-1.svg" alt="">
       </div>
-    </footer>
 
-  
+    </div>
+
+    <div class="people-block">
+      <div class="people-block__img-left"><img src="assets/images/bg-pattern-about-2-contact-1.svg" alt=""></div>
+      <div class="people-block__title">Meet the directors</div>
+      <div class="people-block__directors">
+        <div class="director">
+          <img src="assets/images/avatar-nikita.jpg" alt="Nikita" class="director__photo" id="nikita-photo">
+          <h3 class="director__name h3">Nikita Marks</h3>
+          <div class="director__position" id="nikita-position">Founder & CEO</div>
+          <div class="director__description body__2" id="nikita-description">
+            “Empowered teams create truly amazing products. Set the
+            north star and let them follow it.”
+            <div class="director__links">
+              <a target="_blank" href="https://linkedin.com" class="linked-img">
+                <img src="assets/images/icon-linkedin.svg" alt="linkedin" class="director__social">
+              </a>
+              <a target="_blank" href="https://twitter.com" class="linked-img">
+                <img src="assets/images/icon-twitter.svg" alt="twitter" class="director__social">
+              </a>
+            </div>
+          </div>
+          <div id="bind-plus-nikita" class="director__button">
+            <img src="assets/images/icon-cross.svg" alt="plus icon">
+          </div>
+        </div>
+
+        <div class="director">
+          <img src="assets/images/avatar-christian.jpg" alt="Cristian" class="director__photo" id="cristian-photo">
+          <h3 class="director__name h3">Cristian Duncan</h3>
+          <div class="director__position" id="cristian-position">
+            Co-founder & COO
+          </div>
+          <div class="director__description" id="cristian-description">
+            “Empowered teams create truly amazing products. Set
+            the north star and let them follow it.”
+            <div class="director__links">
+              <a target="_blank" href="https://linkedin.com" class="linked-img">
+                <img src="assets/images/icon-linkedin.svg" alt="linkedin" class="director__social">
+              </a>
+              <a target="_blank" href="https://twitter.com" class="linked-img">
+                <img src="assets/images/icon-twitter.svg" alt="twitter" class="director__social">
+              </a>
+            </div>
+          </div>
+          <div id="bind-plus-cristian" class="director__button">
+            <img src="assets/images/icon-cross.svg" alt="plus icon">
+          </div>
+        </div>
+
+        <div class="director">
+          <img src="assets/images/avatar-cruz.jpg" alt="Cruz" class="director__photo" id="cruz-photo">
+          <h3 class="director__name h3">Cruz Hamer</h3>
+          <div class="director__position" id="cruz-position">
+            Co-founder & CTO
+          </div>
+          <div class="director__description" id="cruz-description">
+            “Empowered teams create truly amazing products. Set the
+            north star and let them follow it.”
+            <div class="director__links">
+              <a target="_blank" href="https://linkedin.com" class="linked-img">
+                <img
+                  src="assets/images/icon-linkedin.svg" alt="linkedin" class="director__social">
+                </a>
+                <a target="_blank" href="https://twitter.com" class="linked-img">
+                <img src="assets/images/icon-twitter.svg" alt="twitter" class="director__social">
+              </a>
+            </div>
+          </div>
+          <div id="bind-plus-cruz" class="director__button">
+            <img src="assets/images/icon-cross.svg" alt="plus icon">
+          </div>
+        </div>
+
+        <div class="director">
+          <img src="assets/images/avatar-drake.jpg" alt="Drake" class="director__photo" id="drake-photo">
+          <h3 class="director__name h3">Drake Heaton</h3>
+          <div class="director__position" id="drake-position">
+            Business Development Lead
+          </div>
+          <div class="director__description" id="drake-description">
+            “Empowered teams create truly amazing products. Set the
+            north star and let them follow it.”
+            <div class="director__links">
+              <a target="_blank" href="https://linkedin.com" class="linked-img">
+                <img src="assets/images/icon-linkedin.svg" alt="linkedin" class="director__social">
+              </a>
+              <a target="_blank" href="https://twitter.com" class="linked-img">
+                <img src="assets/images/icon-twitter.svg" alt="twitter" class="director__social">
+              </a>
+            </div>
+          </div>
+          <div id="bind-plus-drake" class="director__button">
+            <img src="assets/images/icon-cross.svg" alt="plus icon">
+          </div>
+        </div>
+
+        <div class="director">
+          <img src="assets/images/avatar-griffin.jpg" alt="Griffin" class="director__photo" id="griffin-photo">
+          <h3 class="director__name h3">Griffin Wise</h3>
+          <div class="director__position" id="griffin-position">
+            Lead Marketing
+          </div>
+          <div class="director__description" id="griffin-description">
+            “Empowered teams create truly amazing products. Set
+            the north star and let them follow it.”
+            <div class="director__links">
+              <a target="_blank" href="https://linkedin.com" class="linked-img">
+                <img src="assets/images/icon-linkedin.svg" alt="linkedin" class="director__social">
+              </a>
+              <a target="_blank" href="https://twitter.com" class="linked-img">
+                <img src="assets/images/icon-twitter.svg" alt="twitter" class="director__social">
+              </a>
+            </div>
+          </div>
+          <div id="bind-plus-griffin" class="director__button">
+            <img src="assets/images/icon-cross.svg" alt="plus icon">
+          </div>
+        </div>
+
+        <div class="director">
+          <img src="assets/images/avatar-aden.jpg" alt="Aden" class="director__photo" id="aden-photo">
+          <h3 class="director__name h3">Aden Allan</h3>
+          <div class="director__position" id="aden-position">
+            Lead Marketing
+          </div>
+          <div class="director__description" id="aden-description">
+            “Empowered teams create truly amazing products. Set the
+            north star and let them follow it.”
+            <div class="director__links">
+              <a target="_blank" href="https://linkedin.com" class="linked-img">
+                <img src="assets/images/icon-linkedin.svg" alt="linkedin" class="director__social">
+              </a>
+              <a target="_blank" href="https://twitter.com" class="linked-img">
+                <img src="assets/images/icon-twitter.svg" alt="twitter" class="director__social">
+              </a>
+            </div>
+          </div>
+          <div id="bind-plus-aden" class="director__button">
+            <img src="assets/images/icon-cross.svg" alt="plus icon">
+          </div>
+        </div>
+      </div>
+
+      <div class="people-block__img-right">
+        <img src="assets/images/bg-pattern-home-4-about-3.svg" alt="">
+      </div>
+    </div>
+
+    <div class="about-container">
+      <img class="about-image" src="assets/images/bg-pattern-about-4.svg" alt="bg-pattern-about-4">
+      <div class="about-text-size">Some of our clients</div>
+    </div>
+    <div class="about-container-img">
+      <div><img class="about-container-box" src="assets/images/logo-the-verge.png" alt="logo-the-verge"></div>
+      <div><img class="about-container-box" src="assets/images/logo-jakarta-post.png" alt="logo-jakarta-post"></div>
+      <div><img class="about-container-box" src="assets/images/logo-the-guardian.png" alt="logo-the-guardian"></div>
+      <div><img class="about-container-box" src="assets/images/logo-tech-radar.png" alt="logo-tech-radar"></div>
+      <div><img class="about-container-box" src="assets/images/logo-gadgets-now.png" alt="logo-gadget-now"></div>
+    </div>
+  </main>
+  <footer>
+    <div class="ready-to-get-started">
+      <div class="ready-to-get-started__text">Ready to get started?</div>
+      <a href="contacts.html" class="body__1 button button-primary-dark">contact us</a>
+      <img src="assets/images/bg-pattern-home-6-about-5.svg" alt="bg-pattern-home-6-about-5"
+        class="ready-to-get-started__image">
+    </div>
+    <div class="footer-contacts-body">
+      <div class="footer-nav">
+        <a href="index.html" class="linked-img">
+          <img src="assets/images/logo.svg" alt="logo" class="footer-logo">
+        </a>
+        <p class="footer-links"><a href="index.html" class="footer-links__home">home</a><a href="about.html"
+            class="footer-links__about">about</a></p>
+      </div>
+      <p class="footer-contacts body__2">
+        987 Hillcrest Lane <br>
+        Irvine, CA <br>
+        California 92714 <br>
+        Call Us : 949-833-7432 <br>
+      </p>
+      <div class="social-network">
+        <a target="_blank" href="https://facebook.com"><img src="assets/images/icon-facebook.svg" alt="facebook"></a>
+        <a target="_blank" href="https://pinterest.com"><img src="assets/images/icon-pinterest.svg" alt="pinterest"></a>
+        <a target="_blank" href="https://twitter.com"><img src="assets/images/icon-twitter.svg" alt="twiter"></a>
+      </div>
+      <p class="copyright body__2">Copyright 2022. All Rights Reserved</p>
+    </div>
+  </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="about-script.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="about-script.js"></script>
 </body>
+
 </html>
