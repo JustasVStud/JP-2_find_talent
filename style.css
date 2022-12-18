@@ -1005,6 +1005,7 @@ h1, h2, h3, h4, h5, h6 {
         flex-direction: row;
         column-gap: 11px;
         row-gap: 76px;
+        justify-content: center;
     }
     .director {
         min-width: 281px;
