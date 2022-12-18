@@ -1096,6 +1096,23 @@ h1, h2, h3, h4, h5, h6 {
         max-height: 83px;
     }
 
+       /* Meet the directors*/
+    .people-block {
+        padding: 140px 165px 168px 165px;
+    }
+    .people-block__title {
+        margin-bottom: 64px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .people-block__directors {
+        column-gap: 30px;
+        row-gap: 76px;
+    }
+    .director {
+        width: 350px;
+    }
+
 }
 @media screen and (min-width: 768px){
     .about-container{
