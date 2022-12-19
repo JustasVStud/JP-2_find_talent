@@ -194,6 +194,12 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (max-width: 768px) {
     /* For mobile devices with a screen width between 375px to 768px */
+    .green-line--desktop{
+        display: none;
+    }
+    .img-index-banner-left{
+        display: none;
+    }
     .main-banner {
         font-family: "Livvic";
         background-color: rgba(1, 78, 86, 1);
@@ -232,6 +238,9 @@ h1, h2, h3, h4, h5, h6 {
   
   @media only screen and (min-width: 768px) and (max-width: 1339px) {
     /* For tablets with a screen width between 769px and 1339px */
+    .green-line--desktop{
+        display: none;
+    }
     .main-banner {
         padding-top: 112px;
         font-family: "Livvic";
@@ -266,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   @media only screen and (min-width: 1440px) {
     /* For desktop computers with a screen width above 1440px */
-    .main-banner {
+   /* .main-banner {
         padding-top: 112px;
         font-family: "Livvic";
         background-color: rgba(1, 78, 86, 1);
@@ -295,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 156px;
     }
   }
-
+*/
 /*index main features*/
 
 @media only screen and (max-width: 767px) {
@@ -1364,6 +1373,77 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 54%;
 }
 }
+
+ /*index main banner desktop*/
+   
+ .main-banner {
+    background-color: rgba(1, 78, 86, 1);
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+   }
+  
+   
+   .banner-title {
+    width: 635px;
+    height: 200px;
+    top: 0px;
+    text-align:left;
+    margin-bottom: 250px;
+    margin-left: 150px;
+    
+    padding-right: 100px;
+    font-family: 'Livvic';
+    font-style: normal;
+    line-height: 100px;
+    font-weight: 700;
+    font-size: 100px;
+   
+    
+    
+    
+   }
+  .bg-pattern-home-2{
+    position: absolute;
+    bottom: 0px;
+    left: 880px;
+  }
+  .img-index-banner-left{
+    display: block;
+    left: -100px;
+    position: absolute;
+    top: 0px;
+
+  }
+ .banner-text {
+    
+    text-align: left;
+    margin-bottom: 250px;
+    margin-left: 40px                         ;
+    height: 112px;
+    width: 445px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    z-index: 30;
+    
+ }
+ .green-line--desktop{
+    display: block;
+    padding: 0px 0px 25px 0px;
+    margin-left: 0px;
+    margin-bottom: 60px;
+    width: 50px;
+    height: 4px;
+    border-bottom: solid #79C8C7;
+ }
+  }
+=======
 
 /*Index Main stories dekstop*/
 @media screen and (min-width: 1440px){
