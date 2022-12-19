@@ -1114,6 +1114,55 @@ h1, h2, h3, h4, h5, h6 {
         width: 350px;
     }
 
+    /* ***footer*** */
+    .ready-to-get-started {
+        padding: 76px 260px 76px 263px;
+    }
+    .ready-to-get-started__text {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .ready-to-get-started__image{
+        bottom: 0;
+    }
+    .footer-contacts-body {
+        padding: 48px 165px;
+        align-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 198px;
+        column-gap: 125px;
+    }
+    .footer-logo {
+        width: 160px;
+        height: auto;
+    }
+    .footer-nav {
+        height: 100%;
+        flex-basis: auto;
+        margin-bottom: 0;
+    }
+    .footer-links {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .footer-contacts {
+        flex-basis: auto;
+        text-align: left;
+        margin-bottom: 0;
+        width: 445px;
+    }
+    .social-network {
+        flex-basis: auto;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .copyright {
+        flex-basis: auto;
+        margin-left: auto;
+        margin-top: auto;
+    }
+    
 }
 @media screen and (min-width: 768px){
     .about-container{
