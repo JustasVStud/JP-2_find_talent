@@ -474,7 +474,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 200px;
     bottom: -100px;
     right: -100px;;
-    opacity: 53,49%; 
 }
 /* contacts banner */
 .contacts-container{
@@ -739,7 +738,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .name {
     color: var(--rapture-blue);
-    margin-bottom: 2;
+    margin-bottom: 2px;
 }
 .role {
     font-style: italic;
@@ -1123,6 +1122,55 @@ h1, h2, h3, h4, h5, h6 {
         width: 350px;
     }
 
+    /* ***footer*** */
+    .ready-to-get-started {
+        padding: 76px 260px 76px 263px;
+    }
+    .ready-to-get-started__text {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .ready-to-get-started__image{
+        bottom: 0;
+    }
+    .footer-contacts-body {
+        padding: 48px 165px;
+        align-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 198px;
+        column-gap: 125px;
+    }
+    .footer-logo {
+        width: 160px;
+        height: auto;
+    }
+    .footer-nav {
+        height: 100%;
+        flex-basis: auto;
+        margin-bottom: 0;
+    }
+    .footer-links {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .footer-contacts {
+        flex-basis: auto;
+        text-align: left;
+        margin-bottom: 0;
+        width: 445px;
+    }
+    .social-network {
+        flex-basis: auto;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .copyright {
+        flex-basis: auto;
+        margin-left: auto;
+        margin-top: auto;
+    }
+    
 }
 @media screen and (min-width: 768px){
     .about-container{
@@ -1227,7 +1275,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-banner-title {
     text-align: center;
-    margin-top: 125px;
+    margin-top: 50px;
     margin-bottom: 176px;
     margin-left: 165px;
     font-family: 'Livvic';
@@ -1258,15 +1306,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px;
     height: 200px;
     bottom: 0px;
-    right: -100px;;
-    opacity: 53,49%; 
+    right: -100px;
 }
 
 .red-line--desktop {
         display: block;
         padding: 28px 0px 25px 0px;
         margin-left: 0px;
-        margin-top: 80px;
+     
         margin-bottom: 40px;
         width: 50px;
         height: 4px;
@@ -1326,6 +1373,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 54%;
 }
 }
+
  /*index main banner desktop*/
    
  .main-banner {
@@ -1395,3 +1443,77 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: solid #79C8C7;
  }
   }
+=======
+
+/*Index Main stories dekstop*/
+@media screen and (min-width: 1440px){
+    .main-stories-body {
+        color: var(--white);
+        padding-top: 140px; 
+        padding-bottom: 150px;
+        padding-left: 165px;
+        padding-right: 165px;
+        position: relative;
+        text-align: center;
+        background-color: var(--deep-jungle-green); 
+        
+    }
+    .quote {
+        word-wrap: break-word;
+        color: var(--white);
+        background-image: url(assets/images/icon-quotes.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding-top: 36px;
+        margin-bottom: 16px;
+        
+    }
+    .quotes {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        align-items: center;
+    }
+    .quotes__container {
+        max-width: 350px;
+    }
+    .stories-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .main-stories {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        width: 936px;
+        margin-bottom: 56px;
+    }
+    .success-stories {
+        color: var(--rapture-blue);
+        display: inline;
+    }
+    .name {
+        color: var(--rapture-blue);
+        margin-bottom: 2;
+    }
+    .role {
+        font-style: italic;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 16px;
+    }
+    .avatar {
+        border-radius: 50%;
+        border: 2px solid #C4FFFE;
+        width: 62px;
+        height: 62px;
+    }
+    .icon-bot-left {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
