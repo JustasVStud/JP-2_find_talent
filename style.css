@@ -1218,7 +1218,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-banner-title {
     text-align: center;
-    margin-top: 125px;
+    margin-top: 50px;
     margin-bottom: 176px;
     margin-left: 165px;
     font-family: 'Livvic';
@@ -1257,7 +1257,7 @@ h1, h2, h3, h4, h5, h6 {
         display: block;
         padding: 28px 0px 25px 0px;
         margin-left: 0px;
-        margin-top: 80px;
+     
         margin-bottom: 40px;
         width: 50px;
         height: 4px;
