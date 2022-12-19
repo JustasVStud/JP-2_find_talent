@@ -465,7 +465,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 200px;
     bottom: -100px;
     right: -100px;;
-    opacity: 53,49%; 
 }
 /* contacts banner */
 .contacts-container{
@@ -730,7 +729,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .name {
     color: var(--rapture-blue);
-    margin-bottom: 2;
+    margin-bottom: 2px;
 }
 .role {
     font-style: italic;
@@ -1298,8 +1297,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px;
     height: 200px;
     bottom: 0px;
-    right: -100px;;
-    opacity: 53,49%; 
+    right: -100px;
 }
 
 .red-line--desktop {
