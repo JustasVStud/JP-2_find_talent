@@ -1317,3 +1317,76 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 54%;
 }
 }
+
+/*Index Main stories dekstop*/
+@media screen and (min-width: 1440px){
+    .main-stories-body {
+        color: var(--white);
+        padding-top: 140px; 
+        padding-bottom: 150px;
+        padding-left: 165px;
+        padding-right: 165px;
+        position: relative;
+        text-align: center;
+        background-color: var(--deep-jungle-green); 
+        
+    }
+    .quote {
+        word-wrap: break-word;
+        color: var(--white);
+        background-image: url(assets/images/icon-quotes.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding-top: 36px;
+        margin-bottom: 16px;
+        
+    }
+    .quotes {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        align-items: center;
+    }
+    .quotes__container {
+        max-width: 350px;
+    }
+    .stories-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .main-stories {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        width: 936px;
+        margin-bottom: 56px;
+    }
+    .success-stories {
+        color: var(--rapture-blue);
+        display: inline;
+    }
+    .name {
+        color: var(--rapture-blue);
+        margin-bottom: 2;
+    }
+    .role {
+        font-style: italic;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 16px;
+    }
+    .avatar {
+        border-radius: 50%;
+        border: 2px solid #C4FFFE;
+        width: 62px;
+        height: 62px;
+    }
+    .icon-bot-left {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
