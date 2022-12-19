@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 156px;
     }
   }
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1339px) {
     /* For desktop computers with a screen width above 1440px */
     .main-banner {
         padding-top: 112px;
@@ -307,6 +307,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   overflow: hidden;
 }
+
 .red-line {
   position: absolute;
   padding: 28px 0px 25px 0px;
@@ -320,8 +321,8 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   right:-100px;
   top: 0px;
- 
 }
+
 .features-title {
   text-align: left;
   font-family: "Livvic";
@@ -332,9 +333,9 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   vertical-align: top;
   color: #ffffff;
-  
 }
-.features h5{
+
+.features h5 {
     text-align: center;
     font-style: normal;
     vertical-align: top;
@@ -344,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 25px 2px 0px 2px;
 }
 
-.features p{ 
+.features p { 
     color: #ffffff;
     font-style: normal;
     font-size: 15px;
@@ -355,73 +356,160 @@ h1, h2, h3, h4, h5, h6 {
 }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1339px) {
-    .main-features-body {
-        position: relative;
-        background-color: rgba(1, 47, 52, 1);
-        font-family: "Livvic", sans-serif;
-        text-align: center;
-        overflow: hidden;
-        padding-bottom: 100px;
-      }
-      .red-line {
-        padding: 28px 0px 25px 0px;
-        margin-left: 98px;
-        margin-top: 100px;
-        width: 50px;
-        height: 4px;
-        border-bottom: solid #f67e7e;
-      }
+@media only screen and (min-width: 767px) and (max-width: 1439px) {
+.main-features-body {
+    position: relative;
+    background-color: rgba(1, 47, 52, 1);
+    font-family: "Livvic", sans-serif;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
 
-      .image-features {
-        position: absolute;
-        padding: 28px 0px 25px 0px;
-        left: 104px;
-        right: 23px;
-        width: 50px;
-        height: 4px;
-      }
-      .bg-pattern-home-3 {
-        position: absolute;    
-        display: inline-block;
-        right:-100px;
-        top: 0px;
-       
-      }
-      .features-title {
-        width: 445px;
-        height: 65px;
-        text-align: left;
-        font-family: "Livvic";
-        margin: 90px 125px 40px 98px;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 32px;
-        font-style: normal;
-        vertical-align: top;
-        color: #ffffff;
-        
-      }
-      .features h5{
-          text-align: left;
-          font-style: normal;
-          vertical-align: top;
-          font-size: 18px;
-          font-weight: 700;
-          line-height: 28px;
-          padding: 25px 98px 15px 192px;
-      }
+.red-line {
+    padding: 28px 0px 25px 0px;
+    margin-left: 98px;
+    margin-top: 100px;
+    width: 50px;
+    height: 4px;
+    border-bottom: solid #f67e7e;
+}
+
+.image-features {
+    position: absolute;
+    padding: 28px 0px 25px 0px;
+    left: 104px;
+    right: 23px;
+    width: 50px;
+    height: 4px;
+}
+
+.bg-pattern-home-3 {
+    position: absolute;    
+    display: inline-block;
+    right:-100px;
+    top: 0px;  
+}
+
+.features-title {
+    width: 445px;
+    height: 65px;
+    text-align: left;
+    font-family: "Livvic";
+    margin: 90px 125px 40px 98px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    font-style: normal;
+    vertical-align: top;
+    color: #ffffff;   
+}
+
+.features h5 {
+    text-align: left;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 25px 98px 15px 192px;
+}
       
-      .features p{ 
-          color: #ffffff;
-          text-align: left;
-          font-style: normal;
-          font-size: 18px;
-          opacity: 0.8;
-          padding: 5px 98px 32px 192px;
-          font-weight: 600;
-          line-height: 28px;
-      }
+.features p { 
+    color: #ffffff;
+    text-align: left;
+    font-style: normal;
+    font-size: 18px;
+    opacity: 0.8;
+    padding: 5px 98px 32px 192px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+}
+
+@media only screen and (min-width: 1439px) {
+.main-features-body {
+    background-color: rgba(1, 47, 52, 1);
+    font-family: "Livvic", sans-serif;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.features-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.description-features {
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+.red-line {
+    padding: 28px 0px 25px 0px;
+    margin-left: 170px;
+    margin-top: 25px;
+    width: 50px;
+    height: 4px;
+    border-bottom:  5px solid #f67e7e;
+}
+    
+.image-features {
+    width: 56px;
+    height: 56px;
+    float: left;
+}
+
+.features-text{
+    padding-left: 100px;
+}
+
+.bg-pattern-home-3 {
+    position: absolute;    
+    right:-100px;
+    bottom: 0px;  
+}
+    
+.features-title {
+    width: 445px;
+    height: 144px;
+    text-align: left;
+    font-family: "Livvic";
+    margin: 100px 125px 342px 165px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    font-style: normal;
+    vertical-align: top;
+    color: #ffffff;   
+}
+    
+.features h5 {
+    width: 445px;
+    height: 28px;
+    text-align: left;
+    font-style: normal;
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+          
+.features p { 
+    width: 445px;
+    height: 50px;
+    color: #ffffff;
+    text-align: left;
+    font-style: normal;
+    opacity: 0.8;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 32px;
+}
       
 }
 
