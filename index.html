@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -16,66 +17,75 @@
     <a href="index.html" class="linked-img">
       <img src="assets/images/logo.svg" alt="talent logo" class="logo">
     </a>
-    <a href="#offcanvasResponsive" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasResponsive" class="linked-img hamburger">
+    <a href="#offcanvasResponsive" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasResponsive"
+      class="linked-img hamburger">
       <img src="assets/images/icon-hamburger.svg" alt="nav menu open" class="hamburger__img">
     </a>
     <div class="offcanvas-md offcanvas-end header__offcanvas" tabindex="-1" id="offcanvasResponsive">
-        <a href="#offcanvasResponsive" data-bs-dismiss="offcanvas" role="button" class="linked-img close">
-          <img src="assets/images/icon-close.svg" alt="nav menu close__img">
+      <a href="#offcanvasResponsive" data-bs-dismiss="offcanvas" role="button" class="linked-img close">
+        <img src="assets/images/icon-close.svg" alt="nav menu close__img">
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav__item link-text body__1 nav__home">home</a>
+        <a href="about.html" class="nav__item link-text body__1 nav__about">about</a>
+        <a href="contacts.html" class="body__1 button button-primary-light nav__item">
+          contact us
         </a>
-        <nav class="nav">
-          <a href="index.html" class="nav__item link-text body__1 nav__home">home</a>
-          <a href="about.html" class="nav__item link-text body__1 nav__about">about</a>
-          <a href="contacts.html" class="body__1 button button-primary-light nav__item">
-            contact us
-          </a>
-        </nav>
-        <img src="assets/images/bg-pattern-about-1-mobile-nav-1.svg" alt="mobile nav 1" class="offcanvas__bg-image">
+      </nav>
+      <img src="assets/images/bg-pattern-about-1-mobile-nav-1.svg" alt="mobile nav 1" class="offcanvas__bg-image">
     </div>
   </header>
   <main>
-    
-  <div class="main-banner">
+    <div class="main-banner">
       <div class="img-index-banner-left"><img src="assets/images/bg-pattern-home-1.svg" alt=""></div>
-      
-        <div class="banner-title">Find the <br> best <span style="color:rgba(246, 126, 126, 1)">talent</span></div>
+
+      <h1 class="banner-title">
+        Find the<br>
+        best <span class="banner-title--coral">talent</span>
+      </h1>
       <div class="banner-text">
-        <div class="green-line--desktop"></div>Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into
-          the
-          abundance of global talent. We’re about to change that.</div>
-      
-      
+        <div class="green-line--desktop"></div>
+        Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.
+      </div>
+
+
       <div class="bg-pattern-home-2"><img src="assets/images/bg-pattern-home-2.svg" alt="bg-pattern-home-2"></div>
-  </div>
+    </div>
 
     <div class="main-features-body">
       <div class="red-line"></div>
       <div class="bg-pattern-home-3"><img src="assets/images/bg-pattern-home-3.svg" alt="pattern home 3"></div>
       <div class="features-body">
-      <h1 class="features-title">Build & manage distributed teams like no one else.</h1>
+        <h1 class="features-title">Build & manage distributed teams like no one else.</h1>
 
-      <article class="description-features">
+        <div class="description-features">
           <article class="features">
-            <div class = "image-features"><img src="assets/images/icon-person.svg" alt="person"></div>
-            <div class = "features-text">
-              <h5><span style="color:rgba(246, 126, 126, 1)">Experienced Individuals</span></h5>
+            <div class="image-features">
+              <img src="assets/images/icon-person.svg" alt="person">
+            </div>
+            <div class="features-text">
+              <h5>Experienced Individuals</h5>
               <p>Our network is made up of highly experienced professionals who are passionate about what they do.</p>
             </div>
           </article>
           <article class="features">
-            <div class = "image-features"><img src="assets/images/icon-cog.svg" alt="cog"></div>
-            <div class = "features-text">
-              <h5><span style="color:rgba(246, 126, 126, 1)">Easy to Implement</span></h5>
+            <div class="image-features">
+              <img src="assets/images/icon-cog.svg" alt="cog">
+            </div>
+            <div class="features-text">
+              <h5>Easy to Implement</h5>
               <p>Our processes have been refined over years of implementation meaning our teams always deliver.</p>
             </div>
           </article>
           <article class="features">
-            <div class = "image-features"><img src="assets/images/icon-chart.svg" alt="chart"></div>
-            <div class = "features-text">
-              <h5><span style="color:rgba(246, 126, 126, 1)">Enhanced Productivity</span></h5>
+            <div class="image-features">
+              <img src="assets/images/icon-chart.svg" alt="chart">
+            </div>
+            <div class="features-text">
+              <h5>Enhanced Productivity</h5>
               <p>Our customized platform with in-built analytics helps you manage your distributed teams.</p>
             </div>
-          </article>
+          </div>
       </div>
       </article>
 
@@ -86,16 +96,16 @@
         <img class="stories-icon" src="assets/images/bg-pattern-home-4-about-3.svg" alt="logo-the-verge">
       </div>
       <h2 class="main-stories">
-          Delivering real results for top companies. Some of our 
-          <span class="success-stories">success stories.</span>
+        Delivering real results for top companies. Some of our
+        <span class="success-stories">success stories.</span>
       </h2>
       <div class="quotes">
         <div class="quotes__container">
           <p class="quote body__2">
-                “The team perfectly fit the specialized skill set
-                required. They focused on the most essential
-                features helping us launch the platform eight
-                months faster than planned.”
+            “The team perfectly fit the specialized skill set
+            required. They focused on the most essential
+            features helping us launch the platform eight
+            months faster than planned.”
           </p>
           <h3 class="name h3">Kady Baker</h3>
           <div class="role">Product Manager at Bookmark</div>
@@ -103,7 +113,7 @@
             <img class="avatar" src="assets/images/avatar-kady.jpg" alt="kady-pic">
           </div>
         </div>
-        
+
         <div class="quotes__container">
           <p class="quote body__2">
             “We needed to automate our entire
@@ -112,12 +122,12 @@
             user retention has gone through the roof!”
           </p>
           <h3 class="name h3">Aiysha Reese</h3>
-          <div class="role"> Founder of Manage</div> 
+          <div class="role"> Founder of Manage</div>
           <div>
             <img class="avatar" src="assets/images/avatar-aiysha.jpg" alt="aisha-pic">
           </div>
         </div>
-        
+
         <div class="quotes__container">
           <p class="quote body__2">
             “Amazing. Our team helped us build an app
@@ -143,20 +153,22 @@
     <div class="ready-to-get-started">
       <div class="ready-to-get-started__text">Ready to get started?</div>
       <a href="contacts.html" class="body__1 button button-primary-dark">contact us</a>
-      <img src="assets/images/bg-pattern-home-6-about-5.svg" alt="bg-pattern-home-6-about-5" class="ready-to-get-started__image">
+      <img src="assets/images/bg-pattern-home-6-about-5.svg" alt="bg-pattern-home-6-about-5"
+        class="ready-to-get-started__image">
     </div>
     <div class="footer-contacts-body">
       <div class="footer-nav">
         <a href="index.html" class="linked-img">
           <img src="assets/images/logo.svg" alt="logo" class="footer-logo">
         </a>
-        <p class="footer-links"><a href="index.html" class="footer-links__home">home</a><a href="about.html" class="footer-links__about">about</a></p>
+        <p class="footer-links"><a href="index.html" class="footer-links__home">home</a><a href="about.html"
+            class="footer-links__about">about</a></p>
       </div>
       <p class="footer-contacts body__2">
-          987 Hillcrest Lane <br>
-          Irvine, CA <br>
-          California 92714 <br>
-          Call Us : 949-833-7432 <br>
+        987 Hillcrest Lane <br>
+        Irvine, CA <br>
+        California 92714 <br>
+        Call Us : 949-833-7432 <br>
       </p>
       <div class="social-network">
         <a target="_blank" href="https://facebook.com"><img src="assets/images/icon-facebook.svg" alt="facebook"></a>
@@ -169,7 +181,9 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
