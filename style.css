@@ -1324,6 +1324,10 @@ h6 {
         margin-bottom: 0;
     }
 
+    .features-text > p {
+        font-size: 15px;
+        line-height: 25px;
+    }
 }
 
 @media screen and (min-width: 768px) {
