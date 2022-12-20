@@ -1511,10 +1511,7 @@ h6 {
 @media screen and (min-width: 1440px) {
     .main-stories-body {
         color: var(--white);
-        padding-top: 140px;
-        padding-bottom: 150px;
-        padding-left: 165px;
-        padding-right: 165px;
+        padding: 140px 165px;
         position: relative;
         text-align: center;
         background-color: var(--deep-jungle-green);
@@ -1531,11 +1528,13 @@ h6 {
     }
 
     .quotes {
-        padding-top: 10px;
         display: flex;
         flex-direction: row;
         column-gap: 30px;
         align-items: center;
+        justify-content: center;
+        padding-bottom: 11px;
+        padding-top: 0;
     }
 
     .quotes__container {
@@ -1571,7 +1570,7 @@ h6 {
         font-weight: 500;
         font-size: 13px;
         line-height: 18px;
-        margin-bottom: 16px;
+        margin-bottom: 32px;
     }
 
     .avatar {
