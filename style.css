@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   @media only screen and (min-width: 1339px) {
     /* For desktop computers with a screen width above 1440px */
-   /* .main-banner {
+    .main-banner {
         padding-top: 112px;
         font-family: "Livvic";
         background-color: rgba(1, 78, 86, 1);
@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 156px;
     }
   }
-*/
+
 /*index main features*/
 
 @media only screen and (max-width: 767px) {
@@ -1410,7 +1410,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*Dekstop About main partners*/
 @media screen and (min-width: 1440px){
-
     .about-container-img{
         background-color:#012F34;
         display:flex;
@@ -1421,8 +1420,6 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 150px;
         padding-left: 165px;
         padding-right: 165px;
-       
-        
     } 
     .about-container{
         background-color:#012F34;
@@ -1436,31 +1433,25 @@ h1, h2, h3, h4, h5, h6 {
         line-height: 32px;
         font-weight: 700;
     }
-    
-    
-    
     .about-container-box{
         max-height: 45px;
         max-width: 140px;
         text-align: center;
-        
-}
-
-.about-text-size{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
-    text-align: center;
-}  
-.about-image{
-    position:absolute ;
-    top: 0px;
-    left: 0px;
-    width: 200px;
-    height: 200px;
-    opacity: 54%;
-}
-}
+    }
+    .about-text-size{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+    }  
+    .about-image{
+        position:absolute ;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+        height: 200px;
+        opacity: 54%;
+    }
 
  /*index main banner desktop*/
    
