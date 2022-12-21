@@ -1591,7 +1591,7 @@ h6 {
 
     .name {
         color: var(--rapture-blue);
-        margin-bottom: 2;
+        margin-bottom: 2px;
     }
 
     .role {
